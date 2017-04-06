@@ -4,7 +4,7 @@ describe('Directive Test', function() {
 	var counter = element(by.css('.counter'));
 	var count = element(by.css('.counter__count'));
 
-	it('should have an initial 0 count', function () {
+	it('should have an initial count of 0', function () {
 		expect(count.getInnerHtml()).toEqual('Current count: 0');
 	});
 
